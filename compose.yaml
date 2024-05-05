@@ -22,7 +22,7 @@ services:
           #Makes the Docker in Docker container available as the hostname docker within the jenkins network
 
   jenkins:
-    image: jenkins/blueocean:22.440.3-jdk17
+    image: jenkins-devops:lastest
     container_name: jenkins-container
     build:
       context: ./
